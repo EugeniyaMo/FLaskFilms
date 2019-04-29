@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <div class="jumbotron">
+          <h1 class="display-4">{{ film[1] }}</h1>
+          <p class="lead">Год: {{ film[2] }}</p>
+          <hr class="my-4">
+          <p>Рейтинг: {{ film[3] }} %</p>
+          <p>Страна: {{ film[4] }}</p>
+            <p>Кинотеатр: {{ cinema }}</p>
+        </div>
+        <a href="/index"> <button type="button" class="btn btn-outline-info">Назад</button></a>
+{% endblock %}

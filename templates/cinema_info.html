@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <div class="jumbotron">
+          <h1 class="display-4">{{ cinema[1] }}</h1>
+          <p class="lead">Адрес: {{ cinema[2] }}</p>
+          <hr class="my-4">
+        </div>
+        <a href="/cinema_admin"> <button type="button" class="btn btn-outline-info">Назад</button></a>
+{% endblock %}
